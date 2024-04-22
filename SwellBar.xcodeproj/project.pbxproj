@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D369F322BDC0732004397B1 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D369F312BDC0732004397B1 /* MenuBarView.swift */; };
+		1D6B58642BD7026A003486AA /* SwellBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B58632BD7026A003486AA /* SwellBarApp.swift */; };
+		1D6B58682BD7026B003486AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B58672BD7026B003486AA /* Assets.xcassets */; };
+		1D6B586B2BD7026B003486AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6B586A2BD7026B003486AA /* Preview Assets.xcassets */; };
+		1D6B58852BD72CEE003486AA /* SwellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B58842BD72CEE003486AA /* SwellData.swift */; };
+		1D6B58872BD75969003486AA /* MenuBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B58862BD75969003486AA /* MenuBarViewModel.swift */; };
+		1D6B58892BD772CA003486AA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B58882BD772CA003486AA /* DataService.swift */; };
+		1D6B588B2BD77589003486AA /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B588A2BD77589003486AA /* UserPreferences.swift */; };
+		1D6B588D2BD7759F003486AA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B588C2BD7759F003486AA /* SettingsView.swift */; };
+		1D6B588F2BD82099003486AA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B588E2BD82099003486AA /* Utils.swift */; };
+		1D6B58912BD8232C003486AA /* WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B58902BD8232C003486AA /* WindowManager.swift */; };
+		1D6B58A82BD881E5003486AA /* AppUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B58A72BD881E5003486AA /* AppUtilities.swift */; };
+		1DCD50642BD894E300330283 /* SwellStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCD50632BD894E300330283 /* SwellStation.swift */; };
+		1DEA21BF2BD8A39B00F819ED /* StationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEA21BE2BD8A39B00F819ED /* StationListViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D369F312BDC0732004397B1 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		1D6B58602BD7026A003486AA /* SwellBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwellBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6B58632BD7026A003486AA /* SwellBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwellBarApp.swift; sourceTree = "<group>"; };
+		1D6B58672BD7026B003486AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D6B586A2BD7026B003486AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D6B586C2BD7026B003486AA /* SwellBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwellBar.entitlements; sourceTree = "<group>"; };
+		1D6B58842BD72CEE003486AA /* SwellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwellData.swift; sourceTree = "<group>"; };
+		1D6B58862BD75969003486AA /* MenuBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarViewModel.swift; sourceTree = "<group>"; };
+		1D6B58882BD772CA003486AA /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		1D6B588A2BD77589003486AA /* UserPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPreferences.swift; sourceTree = "<group>"; };
+		1D6B588C2BD7759F003486AA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1D6B588E2BD82099003486AA /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		1D6B58902BD8232C003486AA /* WindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowManager.swift; sourceTree = "<group>"; };
+		1D6B58A72BD881E5003486AA /* AppUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtilities.swift; sourceTree = "<group>"; };
+		1DCD50632BD894E300330283 /* SwellStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwellStation.swift; sourceTree = "<group>"; };
+		1DEA21BE2BD8A39B00F819ED /* StationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D6B585D2BD7026A003486AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D369F2C2BDC037A004397B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B588A2BD77589003486AA /* UserPreferences.swift */,
+				1DCD50632BD894E300330283 /* SwellStation.swift */,
+				1D6B58842BD72CEE003486AA /* SwellData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D369F2D2BDC03AA004397B1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B58A72BD881E5003486AA /* AppUtilities.swift */,
+				1D6B58882BD772CA003486AA /* DataService.swift */,
+				1D6B58902BD8232C003486AA /* WindowManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1D369F2E2BDC03CA004397B1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B588E2BD82099003486AA /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1D369F2F2BDC050D004397B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B588C2BD7759F003486AA /* SettingsView.swift */,
+				1D369F312BDC0732004397B1 /* MenuBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D369F302BDC0558004397B1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B58862BD75969003486AA /* MenuBarViewModel.swift */,
+				1DEA21BE2BD8A39B00F819ED /* StationListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1D6B58572BD7026A003486AA = {
+			isa = PBXGroup;
+			children = (
+				1D6B58622BD7026A003486AA /* SwellBar */,
+				1D6B58612BD7026A003486AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D6B58612BD7026A003486AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B58602BD7026A003486AA /* SwellBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D6B58622BD7026A003486AA /* SwellBar */ = {
+			isa = PBXGroup;
+			children = (
+				1D369F2F2BDC050D004397B1 /* Views */,
+				1D369F2C2BDC037A004397B1 /* Models */,
+				1D369F2D2BDC03AA004397B1 /* Services */,
+				1D369F2E2BDC03CA004397B1 /* Utils */,
+				1D6B58632BD7026A003486AA /* SwellBarApp.swift */,
+				1D6B58672BD7026B003486AA /* Assets.xcassets */,
+				1D6B586C2BD7026B003486AA /* SwellBar.entitlements */,
+				1D6B58692BD7026B003486AA /* Preview Content */,
+				1D369F302BDC0558004397B1 /* ViewModels */,
+			);
+			path = SwellBar;
+			sourceTree = "<group>";
+		};
+		1D6B58692BD7026B003486AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B586A2BD7026B003486AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6B585F2BD7026A003486AA /* SwellBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6B586F2BD7026B003486AA /* Build configuration list for PBXNativeTarget "SwellBar" */;
+			buildPhases = (
+				1D6B585C2BD7026A003486AA /* Sources */,
+				1D6B585D2BD7026A003486AA /* Frameworks */,
+				1D6B585E2BD7026A003486AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwellBar;
+			productName = SwellBar;
+			productReference = 1D6B58602BD7026A003486AA /* SwellBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D6B58582BD7026A003486AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1D6B585F2BD7026A003486AA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 1D6B585B2BD7026A003486AA /* Build configuration list for PBXProject "SwellBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D6B58572BD7026A003486AA;
+			productRefGroup = 1D6B58612BD7026A003486AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6B585F2BD7026A003486AA /* SwellBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D6B585E2BD7026A003486AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6B586B2BD7026B003486AA /* Preview Assets.xcassets in Resources */,
+				1D6B58682BD7026B003486AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D6B585C2BD7026A003486AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DCD50642BD894E300330283 /* SwellStation.swift in Sources */,
+				1DEA21BF2BD8A39B00F819ED /* StationListViewModel.swift in Sources */,
+				1D6B588B2BD77589003486AA /* UserPreferences.swift in Sources */,
+				1D6B58A82BD881E5003486AA /* AppUtilities.swift in Sources */,
+				1D6B58912BD8232C003486AA /* WindowManager.swift in Sources */,
+				1D6B58852BD72CEE003486AA /* SwellData.swift in Sources */,
+				1D6B58872BD75969003486AA /* MenuBarViewModel.swift in Sources */,
+				1D6B588F2BD82099003486AA /* Utils.swift in Sources */,
+				1D6B588D2BD7759F003486AA /* SettingsView.swift in Sources */,
+				1D369F322BDC0732004397B1 /* MenuBarView.swift in Sources */,
+				1D6B58892BD772CA003486AA /* DataService.swift in Sources */,
+				1D6B58642BD7026A003486AA /* SwellBarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6B586D2BD7026B003486AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D6B586E2BD7026B003486AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1D6B58702BD7026B003486AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwellBar/SwellBar.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwellBar/Preview Content\"";
+				DEVELOPMENT_TEAM = NEHG4D53L2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwellBar/Info.plist;
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.swellbar.swellbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1D6B58712BD7026B003486AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwellBar/SwellBar.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwellBar/Preview Content\"";
+				DEVELOPMENT_TEAM = NEHG4D53L2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwellBar/Info.plist;
+				INFOPLIST_KEY_LSBackgroundOnly = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.swellbar.swellbar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6B585B2BD7026A003486AA /* Build configuration list for PBXProject "SwellBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6B586D2BD7026B003486AA /* Debug */,
+				1D6B586E2BD7026B003486AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6B586F2BD7026B003486AA /* Build configuration list for PBXNativeTarget "SwellBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6B58702BD7026B003486AA /* Debug */,
+				1D6B58712BD7026B003486AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D6B58582BD7026A003486AA /* Project object */;
+}
